@@ -157,7 +157,7 @@ form > h2 {
 
 /* IMAGE SECTION */
 .image-section {
-  background: no-repeat center url(/images/background-image.jpg);
+  background: no-repeat center url("images/background-image.jpg");
   background-size: cover;
   width: 650px;
   display: flex;
@@ -185,7 +185,7 @@ form > h2 {
 
 .sidebar-text::before {
   content: " ";
-  background: no-repeat center url(/images/odin-lined.png);
+  background: no-repeat center url("images/odin-lined.png");
   background-size: cover;
   position: absolute;
 
